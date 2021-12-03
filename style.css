@@ -1,0 +1,38 @@
+body, html{
+    width: 100%;
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+    background: url(starup.jpeg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+h1{
+    color: wheat;
+    font-size: 3em;
+}
+.buffer{
+    height: 60px;
+}
+hr {
+    border-top: 5px solid rgb(211, 248, 0);
+    max-width: 80px;
+    margin: auto;
+}
+.btn-xl{
+    padding: 1em 2em;
+    font-weight: 400;
+    border-radius: 300px;
+    text-transform: uppercase;
+    margin: 10px;
+}
+.btn-success{
+    background-color: rgba(233, 73, 73, 0.87);
+    border-color: rgba(233, 73, 73, 0.87);
+}
+.btn-success:hover {
+    background-color: rgba(204, 86, 198, 0.856);
+    border-color: rgba(204, 86, 198, 0.856);
+    border-width: 5px;
+}
